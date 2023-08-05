@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+}
+
+h1{
+    color :white;
+    font-family:  'Philosopher', sans-serif;
+    font-weight: 700;
+    background-color: #212121;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 37px);
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Free-Floral-Navy-Blue-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#list {
+    background-color:rgb(251, 250, 247);
+    height: 100%;
+    flex: 2;
+}
+
+#form {
+    background-color: rgb(219, 174, 253/32%);
+    height: 100%;
+    flex: 1;
+    padding: 10px 20px;
+}
+
+#iImportant {
+    color: #616161;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#iImportant:hover {
+    color: #333;
+}
+
+.important-icon {
+    color:tomato ! important;
+}
+
+.task{
+    margin: 10px 20px;
+    padding: 10px;
+    border: 10px solid #333;
+    display: flex;
+    box-shadow: -6px 8px 5px 0px #757272;
+    border-width: 5px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.task .info {
+    flex:3;
+}
+
+.task .info h5 {
+ margin-bottom: 3px;
+}
+
+.task .info p {
+    margin: 0;
+}
+
+.task .status {
+    flex:1;
+}
+
+.task .date-budget{
+    flex:1;
+}
+
+.task .date-budget label {
+    display: block;
+}
